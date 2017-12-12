@@ -4,7 +4,7 @@ KDT Framework
 1. Setup git and clone this repository.
 2. Ensure Java JDK 1.8 or later is installed.
 3. Install Eclipse (Eclipse auto-installer may have a remote host offline as of 12/12. Full installation may be necessary).
-4. Ensure Eclipse recognizes JDK 1.8 or later (Window->Preferences->Java->Installed JREs).
+4. Ensure Eclipse recognizes JDK 1.8 or later (Window->Preferences->Java->Installed JREs->Execution Environment).
 5. Select Maven settings Window->Preferences->Maven-> Download Artifact Sources and Window->Preferences->Maven-> Download Artifact JavaDoc.
 
 Eclipse project setup:
