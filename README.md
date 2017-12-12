@@ -19,3 +19,10 @@ Eclipse project setup:
 5. Select the 'Import as general project' radio button.
 6. Provide a project name, press Finish.
 7. Right-click the project in Package Explorer, go to Configure->Convert to Maven Project.
+
+Testing successful install (Windows):
+1. Right-click Eclipse project, Run As->Maven->Maven Install.
+2. In your file explorer, go to the kdt folder and copy the kdt.jar file to the top-level kdt folder. For example, copy kdt\target\KDT_jar\kdt.jar to kdt\.
+3. Double-click kdt.bat in the top-level kdt folder (kdt\kdt.bat).
+4. Open setup_success_test.csv.
+5. 'Automation Test Log' should be opened in IE, indicating a success.
