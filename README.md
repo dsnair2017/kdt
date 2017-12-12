@@ -2,7 +2,7 @@
 KDT Framework
 
 Pre-requisites:
-1. Requires settings.xml to be placed in .m2 directory.
+1. Requires settings.xml and archetype-catalog.xml to be placed in .m2 directory.
 
 1. Setup git and clone this repository.
 2. Ensure Java JDK 1.8 or later is installed.
