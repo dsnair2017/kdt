@@ -4,8 +4,19 @@ KDT Framework
 Pre-requisites:
 1. Requires settings.xml and archetype-catalog.xml to be placed in .m2 directory.
 
+Installation Overview:
+1. Copy pre-requisite files (previously mentioned).
+2. Setup git.
+3. Setup the Java JDK.
+4. Setup Eclipse, configure Maven settings.
+5. Import this project into Eclipse.
+6. Convert project to Maven Project.
+7. Build project.
+8. Run successful install test (will run a KDT test and display report in your browser).
+
+
 Installation:
-1. Setup git and clone this repository.
+1. Setup git and clone this repository (alternatively, select "Copy or download"->"Download Zip" from the main https://github.com/lewissall/kdt GitHub page).
 2. Ensure Java JDK 1.8 or later is installed.
 3. Install Eclipse (Eclipse auto-installer may have a remote host offline as of 12/12. Full installation may be necessary).
 4. Ensure Eclipse recognizes JDK 1.8 or later (Window->Preferences->Java->Installed JREs->Execution Environment).
