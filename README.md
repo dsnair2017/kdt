@@ -5,10 +5,10 @@ Pre-requisites:
 1. Requires settings.xml and archetype-catalog.xml to be placed in .m2 directory.
 
 Installation Overview:
-1. Copy pre-requisite files (previously mentioned).
-2. Setup git.
-3. Setup the Java JDK.
-4. Setup Eclipse, configure Maven settings.
+1. Setup git.
+2. Setup the Java JDK.
+3. Setup Eclipse, configure Maven settings.
+4. Copy pre-requisite files (previously mentioned).
 5. Import this project into Eclipse.
 6. Convert project to Maven Project.
 7. Build project.
@@ -20,7 +20,8 @@ Installation:
 2. Ensure Java JDK 1.8 or later is installed.
 3. Install Eclipse (Eclipse auto-installer may have a remote host offline as of 12/12. Full installation may be necessary).
 4. Ensure Eclipse recognizes JDK 1.8 or later (Window->Preferences->Java->Installed JREs->Execution Environment).
-5. Select Maven settings Window->Preferences->Maven-> Download Artifact Sources and Window->Preferences->Maven-> Download Artifact JavaDoc.
+5. Copy files mentioned in "Pre-Requisites" to your .m2 directory (C:/Users/User/.m2 on Windows).
+6. Select Maven settings Window->Preferences->Maven-> Download Artifact Sources and Window->Preferences->Maven-> Download Artifact JavaDoc.
 
 Eclipse project setup:
 1. In Eclipse, File->Import->Git->Projects from Git.
