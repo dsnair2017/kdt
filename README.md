@@ -35,6 +35,6 @@ Eclipse project setup:
 Testing successful install (Windows):
 1. Right-click Eclipse project, Run As->Maven->Maven Install.
 2. In your file explorer, go to the kdt folder and copy the kdt.jar file to the top-level kdt folder. For example, copy kdt\target\KDT_jar\kdt.jar to kdt\.
-3. Double-click kdt.bat in the top-level kdt folder (kdt\kdt.bat).
+3. Double-click kdt_setup_success_test.bat in the top-level kdt folder (kdt\kdt_setup_success_test.bat).
 4. Open setup_success_test.xlsx.
 5. 'Automation Test Log' should be opened in IE, indicating a success.
