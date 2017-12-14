@@ -21,7 +21,7 @@ Installation:
 3. Install Eclipse (Eclipse auto-installer may have a remote host offline as of 12/12. Full installation may be necessary).
 4. Ensure Eclipse recognizes JDK 1.8 or later (Window->Preferences->Java->Installed JREs. Expand Installed JREs->Execution Environment. Select Java SE 1.8 or later and check the applicable JRE in the right-hand pane.).
 5. Copy files mentioned in "Pre-Requisites" to your .m2 directory (C:/Users/User/.m2 on Windows).
-6. Select Maven settings Window->Preferences->Maven-> Download Artifact Sources and Window->Preferences->Maven-> Download Artifact JavaDoc.
+6. Select Maven settings Window->Preferences->Maven and select Download Artifact Sources and Window->Preferences->Maven and select Download Artifact JavaDoc.
 
 Eclipse project setup:
 1. In Eclipse, File->Import->Git->Projects from Git.
